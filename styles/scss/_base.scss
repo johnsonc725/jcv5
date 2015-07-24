@@ -5,3 +5,56 @@ h2 {
 	padding: 5%;
 	line-height: 56px;
 }
+
+body {
+	background: #150028;
+	color: #E5FFF9;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size:1.2em;
+
+}
+
+.firstname {
+	text-transform:uppercase; 
+	letter-spacing:0.15em;
+	margin-left:23px;
+	margin-top: 30%;
+	text-shadow: 0px 0px 2px #50E3C2;
+}
+
+.tagline {
+	letter-spacing:0.15em;
+	margin-left:20px;
+	margin-top:-25px;
+	text-shadow: 0px 0px 2px #50E3C2;
+	margin-bottom:70px;
+}
+
+.blurb {
+	letter-spacing:0.09em;
+	margin-left:20px;
+	opacity:.85;
+	text-shadow: 0px 0px 2px #50E3C2;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#container {
+  margin: 0 auto;
+  width: 628px;
+  padding: 0px;
+}
+
+p a {color:white;}
+
+.social {
+	margin-left:20;
+	padding-top:110px; 
+	position:absolute; 
+	bottom:0; opacity:.3;
+	
+	p {
+		padding-bottom:10px;
+	}
+}
