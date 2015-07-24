@@ -6,3 +6,86 @@ h2 {
   padding: 5%;
   line-height: 56px;
 }
+
+/* line 9, scss/_base.scss */
+body {
+  background: #150028;
+  color: #E5FFF9;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+/* line 17, scss/_base.scss */
+#container {
+  margin: 0 auto;
+  width: 610px;
+  padding: 0px;
+}
+
+/* line 23, scss/_base.scss */
+.logo {
+  margin-left: -20px;
+  margin-top: -5px;
+}
+
+/* line 25, scss/_base.scss */
+.firstname {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: 20%;
+  text-shadow: 0px 0px 2px #50E3C2;
+}
+
+/* line 32, scss/_base.scss */
+.tagline {
+  letter-spacing: 0.15em;
+  margin-top: -25px;
+  text-shadow: 0px 0px 2px #50E3C2;
+  margin-bottom: 70px;
+}
+
+/* line 39, scss/_base.scss */
+.blurb {
+  letter-spacing: 0.09em;
+  opacity: .85;
+  text-shadow: 0px 0px 2px #50E3C2;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* line 47, scss/_base.scss */
+p a {
+  color: white;
+}
+
+/* line 49, scss/_base.scss */
+.social {
+  margin-left: 20;
+  padding-top: 110px;
+  position: absolute;
+  bottom: 0;
+  opacity: .3;
+}
+/* line 55, scss/_base.scss */
+.social p {
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 5, scss/_queries.scss */
+  .logo img {
+    width: 100px;
+  }
+
+  /* line 6, scss/_queries.scss */
+  body {
+    color: red;
+  }
+}
+@media screen and (min-width: 1441px) {
+  /* line 10, scss/_queries.scss */
+  .firstname {
+    margin-top: 30%;
+  }
+}
