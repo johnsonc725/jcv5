@@ -1,9 +1,5 @@
-h2 {
-	color: #555;
-	font-size: 50px;
-	width: 50%;
-	padding: 5%;
-	line-height: 56px;
+@mixin neonShadow-mixin {
+  text-shadow: 0px 0px 2px #50E3C2;
 }
 
 body {
@@ -11,46 +7,45 @@ body {
 	color: #E5FFF9;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
-	font-size:1.2em;
+	font-size: 110%;
 }
 
 #container {
   margin: 0 auto;
-  width: 610px;
+  max-width: 610px;
   padding: 0px;
 }
 
-.logo {margin-left:-20px; margin-top:-5px;}
+.logo {margin-top:-5px;}
+
 
 .firstname {
 	text-transform:uppercase; 
 	letter-spacing:0.15em;
 	margin-top: 20%;
-	text-shadow: 0px 0px 2px #50E3C2;
+  @include neonShadow-mixin;
 }
 
 .tagline {
-	letter-spacing:0.15em;
+	letter-spacing:0.216em;
 	margin-top:-25px;
-	text-shadow: 0px 0px 2px #50E3C2;
+  @include neonShadow-mixin;
 	margin-bottom:70px;
 }
 
 .blurb {
 	letter-spacing:0.09em;
 	opacity:.85;
-	text-shadow: 0px 0px 2px #50E3C2;
+  @include neonShadow-mixin;
 	text-align: justify;
-    text-justify: inter-word;
 }
 
 p a {color:white;}
 
 .social {
-	margin-left:20;
-	padding-top:110px; 
 	position:absolute; 
-	bottom:0; opacity:.3;
+	bottom:0px; 
+  opacity:.3;
 	
 	p {
 		padding-bottom:10px;

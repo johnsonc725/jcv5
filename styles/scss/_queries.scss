@@ -1,12 +1,22 @@
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 400px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-  	.logo img {width: 100px;}
-  	body{color:red;}
+/* 321px 20.063em phone portrait for larger phones - when would I use this? */
+@media only screen and (min-width: 20.063em) and (max-width: 640px) { 
+   #container {padding:0 7%;}
+   .logo {margin-left:-12px;}
+   .logo img {width:100%;}
+   .tagline {margin-top:-10px;}
+   .blurb {text-align: left;}
+   .social {bottom:-10%;}
+   .social p span {display:block;}
 }
 
+@media only screen and (min-width: 641px) { 
+
+  .logo {margin-left:-20px;}
+}
+
+
 @media screen and (min-width: 1441px) { 
-.firstname {
-	margin-top: 30%;}
+  .firstname {
+  	margin-top: 25%;
+  }
 }
